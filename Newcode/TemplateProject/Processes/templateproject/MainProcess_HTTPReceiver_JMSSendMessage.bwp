@@ -14,6 +14,7 @@
     xmlns:ns13="http://tns.tibco.com/bw/activity/sendhttpresponse/xsd/input+deb964cb-3196-4296-b8a8-f859fefb5332+ResponseActivityInput"
     xmlns:ns14="http://tns.tibco.com/bw/palette/internal/activityerror+bw.http.sendHTTPResponse"
     xmlns:ns15="http://tns.tibco.com/bw/activity/sendhttpresponse/xsd/input+c85de8c1-a8c5-4bd1-a64b-b1d6b7f19e21+ResponseActivityInput"
+    xmlns:ns16="http://ooredoo.com/telecom/common/xsd/v1_0_0_0/AuditLogService"
     xmlns:ns2="http://www.tibco.com/namespaces/tnt/plugins/jms"
     xmlns:ns3="http://tns.tibco.com/bw/palette/internal/activityerror+bw.jms.send"
     xmlns:ns4="http://www.tibco.com/namespaces/tnt/plugins/parsexml"
