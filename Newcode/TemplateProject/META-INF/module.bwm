@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_R6BtEPY_Eeq-y4T7PWLj-Q" targetNamespace="http://tns.tibco.com/bw/composite/TemplateProject" name="TemplateProject" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_SerSQPY_Eeq-y4T7PWLj-Q" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Se24cPY_Eeq-y4T7PWLj-Q" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Se7w8PY_Eeq-y4T7PWLj-Q" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SfACYPY_Eeq-y4T7PWLj-Q" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SfET0PY_Eeq-y4T7PWLj-Q" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SfJMUPY_Eeq-y4T7PWLj-Q" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_SfNdwPY_Eeq-y4T7PWLj-Q" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Wy_nIPY_Eeq-y4T7PWLj-Q" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_WzD4kPY_Eeq-y4T7PWLj-Q" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_WzGU0PY_Eeq-y4T7PWLj-Q" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_0BjOUPwZEeqar4ioI62mgA" name="/framework/hiftransformation" type="XMLSchema:boolean" scaext:simpleValue="false" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_12k2QPwZEeqar4ioI62mgA" name="/framework/customtransformation" type="XMLSchema:boolean" scaext:simpleValue="false" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2CBRQPwZEeqar4ioI62mgA" name="/framework/hifroutingflag" type="XMLSchema:boolean" scaext:simpleValue="false" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2J6pAPwZEeqar4ioI62mgA" name="/framework/customroutingflag" type="XMLSchema:boolean" scaext:simpleValue="false" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GffwUPwaEeqar4ioI62mgA" name="/framework/hiftransformationxsltpath" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Gg3CQPwaEeqar4ioI62mgA" name="/framework/hifroutingxsltpath" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_P6R2cPwfEeqar4ioI62mgA" name="/framework/validatexsdpath" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_X7yNIPx_Eeqvj_sW4noIoA" name="/framework/Method" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_KTtYcPyAEeqvj_sW4noIoA" name="/framework/cleloggingqueue" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_Nd41cPyAEeqvj_sW4noIoA" name="/framework/cleerrorqueue" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_teE0cPyAEeqvj_sW4noIoA" name="/framework/INFO" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_tgrcgPyAEeqvj_sW4noIoA" name="/framework/ERROR" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_SOtqsPyBEeqvj_sW4noIoA" name="/framework/maxsession" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_YVwhcPyBEeqvj_sW4noIoA" name="/framework/output.queue" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_zW-EQBk5EeunEoo3a61C9Q" name="/framework/contextpath" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_3sAK0Bk5EeunEoo3a61C9Q" name="/framework/pathspec" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_LQReAAuMEeusdOB6KIli-g" name="/cle/TransactionType" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_MisvMAuMEeusdOB6KIli-g" name="/cle/TransactionDomain" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_MkNyIAuMEeusdOB6KIli-g" name="/cle/EntryLevel" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_bp9pQAuMEeusdOB6KIli-g" name="/cle/ExitLevel" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_br7YIAuMEeusdOB6KIli-g" name="/cle/ErrorLevel" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_h7OzAAuMEeusdOB6KIli-g" name="/cle/ProcessName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_oi2nQAuMEeusdOB6KIli-g" name="/cle/OperationName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_hjsa8AvHEeuRm4Pia1e0Rw" name="/EMSConnection/JNDIContextfactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_laRq8AvHEeuRm4Pia1e0Rw" name="/EMSConnection/JNDIURL" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_lfEEUAvHEeuRm4Pia1e0Rw" name="/EMSConnection/JNDIQueueConnectionFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_ljBXQAvHEeuRm4Pia1e0Rw" name="/EMSConnection/JNDITopicConnectionFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_lmPDUAvHEeuRm4Pia1e0Rw" name="/EMSConnection/UserName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_lpd9gAvHEeuRm4Pia1e0Rw" name="/EMSConnection/Password" type="property:password" scaext:simpleValue="#!8UCLqhmXAgFMRJFMH0D06A==" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_xrascAvHEeuRm4Pia1e0Rw" name="/EMSConnection/Providerurl" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_MGT24AvIEeuRm4Pia1e0Rw" name="/http/host" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_NUVJMAvIEeuRm4Pia1e0Rw" name="/http/port" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_ux4-QBkzEeunEoo3a61C9Q" name="ComponentMainProcess_HTTPReceiver_JMSSendMessage" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_ux4-QRkzEeunEoo3a61C9Q" processName="templateproject.MainProcess_HTTPReceiver_JMSSendMessage"/>
+  </sca:component>
+</sca:composite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:InternalCustomer xmlns:tns="http://www.hif.framework/Customer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hif.framework/Customer Customer.xsd ">
+  <tns:customername>tns:customername</tns:customername>
+  <tns:customerid>tns:customerid</tns:customerid>
+  <tns:Addressline1>tns:Addressline1</tns:Addressline1>
+  <tns:Addressline2>tns:Addressline2</tns:Addressline2>
+  <tns:state>tns:state</tns:state>
+  <tns:city>tns:city</tns:city>
+  <tns:countryname>tns:countryname</tns:countryname>
+  <tns:countrycode>tns:countrycode</tns:countrycode>
+</tns:InternalCustomer>

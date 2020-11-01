@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/CLESchema" xmlns:tns="http://www.example.org/CLESchema" elementFormDefault="qualified">
+
+    <element name="CLEInput" type="tns:CLEInputType"></element>
+
+    <complexType name="CLEInputType">
+    	<sequence>
+    		<element name="ExchangeID" type="string" minOccurs="0"
+    			maxOccurs="1">
+    		</element>
+    		<element name="HalfFlowID" type="string" minOccurs="0"
+    			maxOccurs="1">
+    		</element>
+    		<element name="LogLevel" type="string" minOccurs="0"
+    			maxOccurs="1">
+    		</element>
+    		<element name="LogData" type="tns:LogDataType" minOccurs="0" maxOccurs="1"></element>
+    		<element name="ErrorData" type="tns:ErrorDataType" minOccurs="0" maxOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="LogDataType">
+    	<sequence>
+    		<element name="Message" type="string" minOccurs="0"
+    			maxOccurs="1">
+    		</element>
+    		<element name="MessageCode" type="string" minOccurs="0"
+    			maxOccurs="1">
+    		</element>
+    		<element name="Payload" type="string" minOccurs="0" maxOccurs="1"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="ErrorDataType">
+    	<sequence>
+    		<element name="ErrorStackTrace" type="string" minOccurs="0"
+    			maxOccurs="1">
+    		</element>
+    		<element name="Message" type="string" minOccurs="0"
+    			maxOccurs="1">
+    		</element>
+    		<element name="MessageCode" type="string" minOccurs="0"
+    			maxOccurs="1">
+    		</element>
+    		<element name="Payload" type="string" minOccurs="0" maxOccurs="1"></element>
+    	</sequence>
+    </complexType>
+</schema>
