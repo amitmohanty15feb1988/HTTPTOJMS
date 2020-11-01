@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:EnterPriseEnvolope xmlns:tns="http://www.hif.framework/EnterpriseEnvolope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hif.framework/EnterpriseEnvolope EnterpriseEnvolope.xsd ">
+  <tns:EnterpriseHeader>
+    <tns:TechnicalHeader>
+      <tns:InterfaceId>GLBL_CUSTOMER_RECORD</tns:InterfaceId>
+      <tns:ComponentId>GLBL_CUSTOMER_RECORD_01_ESB</tns:ComponentId>
+      <tns:InterfaceName>Customer</tns:InterfaceName>
+      <tns:SourceTransactionId>558136ba-1c02-11eb-adc1-0242ac120002</tns:SourceTransactionId>
+      <tns:TargetTransactionId>605bb088-1c02-11eb-adc1-0242ac120002</tns:TargetTransactionId>
+      <tns:Enviroment>DEV</tns:Enviroment>
+      <tns:CorrelationId>/hifframework</tns:CorrelationId>
+      <tns:Timestamp>01112020105456</tns:Timestamp>
+    </tns:TechnicalHeader>
+    <tns:BusiessHeader>
+      <tns:KeyValuePair>
+        <tns:Key></tns:Key>
+        <tns:value></tns:value>
+      </tns:KeyValuePair>
+    </tns:BusiessHeader>
+    <tns:RoutingProp>
+      <tns:KeyValuePair>
+        <tns:Key>countrycode</tns:Key>
+        <tns:value>UK</tns:value>
+      </tns:KeyValuePair>
+    </tns:RoutingProp>
+  </tns:EnterpriseHeader>
+  <tns:body>
+    <tns:Payload>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;tns:InternalCustomer xmlns:tns=&quot;http://www.hif.framework/Customer&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.hif.framework/Customer Customer.xsd &quot;&gt;
+  &lt;tns:customername&gt;IPMTIB&lt;/tns:customername&gt;
+  &lt;tns:customerid&gt;866942&lt;/tns:customerid&gt;
+  &lt;tns:Addressline1&gt;Flat no 111&lt;/tns:Addressline1&gt;
+  &lt;tns:Addressline2&gt;Senorita Apartment&lt;/tns:Addressline2&gt;
+  &lt;tns:state&gt;Karanataka&lt;/tns:state&gt;
+  &lt;tns:city&gt;Bangalore&lt;/tns:city&gt;
+  &lt;tns:countryname&gt;India&lt;/tns:countryname&gt;
+  &lt;tns:countrycode&gt;UK&lt;/tns:countrycode&gt;
+&lt;/tns:InternalCustomer&gt;</tns:Payload>
+  </tns:body>
+</tns:EnterPriseEnvolope>
