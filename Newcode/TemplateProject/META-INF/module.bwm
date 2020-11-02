@@ -14,9 +14,6 @@
   <sca:property xmi:id="_12k2QPwZEeqar4ioI62mgA" name="/framework/customtransformation" type="XMLSchema:boolean" scaext:simpleValue="false" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_2CBRQPwZEeqar4ioI62mgA" name="/framework/hifroutingflag" type="XMLSchema:boolean" scaext:simpleValue="false" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_2J6pAPwZEeqar4ioI62mgA" name="/framework/customroutingflag" type="XMLSchema:boolean" scaext:simpleValue="false" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_GffwUPwaEeqar4ioI62mgA" name="/framework/hiftransformationxsltpath" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_Gg3CQPwaEeqar4ioI62mgA" name="/framework/hifroutingxsltpath" type="XMLSchema:string" scaext:simpleValue="" publicAccess="true" scalable="true"/>
-  <sca:property xmi:id="_P6R2cPwfEeqar4ioI62mgA" name="/framework/validatexsdpath" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_X7yNIPx_Eeqvj_sW4noIoA" name="/framework/Method" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_KTtYcPyAEeqvj_sW4noIoA" name="/framework/cleloggingqueue" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_Nd41cPyAEeqvj_sW4noIoA" name="/framework/cleerrorqueue" type="XMLSchema:string" publicAccess="true" scalable="true"/>

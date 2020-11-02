@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jms="http://xsd.tns.tibco.com/bw/models/sharedresource/jms" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_28O1YbxgEeq65pK6tHVZ0g" name="JMSConnectionResource" type="jms:JMSConnectionFactory">
   <jndi:configuration xsi:type="jms:DirectConnectionFactory" xmi:id="_kDAggPaTEeqxBryKnK8Cjw" factoryType="Queue/Topic">
-    <substitutionBindings xmi:id="_FX6sQAvIEeuRm4Pia1e0Rw" template="providerURL" propName="/EMSConnection/Providerurl"/>
+    <substitutionBindings xmi:id="_3v0SUBzzEeuveLhc6xeKHg" template="providerURL" propName="/EMSConnection/Providerurl"/>
     <userCredentials xmi:id="_HGDpEAvIEeuRm4Pia1e0Rw">
       <substitutionBindings xmi:id="_HczVIAvIEeuRm4Pia1e0Rw" template="username" propName="/EMSConnection/UserName"/>
       <substitutionBindings xmi:id="_Imnc4AvIEeuRm4Pia1e0Rw" template="password" propName="/EMSConnection/Password"/>

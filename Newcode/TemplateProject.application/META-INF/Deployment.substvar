@@ -98,8 +98,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>Boolean</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>true</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.customtransformation#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/hiftransformation</name>
@@ -108,7 +108,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>Boolean</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.hiftransformation#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/hifroutingflag</name>
@@ -117,8 +118,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>Boolean</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>true</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.hifroutingflag#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/customroutingflag</name>
@@ -127,8 +128,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>Boolean</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>false</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.customroutingflag#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/Method</name>
@@ -137,7 +138,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.Method#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/cleerrorqueue</name>
@@ -146,7 +148,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.cleerrorqueue#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/cleloggingqueue</name>
@@ -155,7 +158,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.cleloggingqueue#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/ERROR</name>
@@ -164,7 +168,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.ERROR#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/INFO</name>
@@ -173,7 +178,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.INFO#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/maxsession</name>
@@ -182,7 +188,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>Integer</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.maxsession#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/contextpath</name>
@@ -191,7 +198,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.contextpath#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/pathspec</name>
@@ -200,7 +208,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.pathspec#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///framework/output.queue</name>
@@ -209,7 +218,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.framework.output.queue#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///cle/TransactionType</name>
@@ -218,8 +228,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>TransactionType</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.cle.TransactionType#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///cle/TransactionDomain</name>
@@ -228,8 +238,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>TransactionDomain</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.cle.TransactionDomain#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///cle/ErrorLevel</name>
@@ -238,8 +248,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>ERROR</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.cle.ErrorLevel#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///cle/EntryLevel</name>
@@ -248,8 +258,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>ENTRY</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.cle.EntryLevel#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///cle/ExitLevel</name>
@@ -258,8 +268,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>EXIT</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.cle.ExitLevel#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///cle/ProcessName</name>
@@ -268,8 +278,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>ProcessName</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.cle.ProcessName#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///cle/OperationName</name>
@@ -278,8 +288,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>OperationName</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.cle.OperationName#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///EMSConnection/JNDIQueueConnectionFactory</name>
@@ -288,7 +298,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.EMSConnection.JNDIQueueConnectionFactory#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///EMSConnection/UserName</name>
@@ -297,7 +308,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.EMSConnection.UserName#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///EMSConnection/JNDITopicConnectionFactory</name>
@@ -306,7 +318,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.EMSConnection.JNDITopicConnectionFactory#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///EMSConnection/JNDIURL</name>
@@ -315,8 +328,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>tibjmsnaming://10.0.1.50:7222</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.EMSConnection.JNDIURL#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///EMSConnection/Providerurl</name>
@@ -325,8 +338,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>tcp://10.0.1.50:7222</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.EMSConnection.Providerurl#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///EMSConnection/Password</name>
@@ -335,7 +348,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>Password</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.EMSConnection.Password#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///EMSConnection/JNDIContextfactory</name>
@@ -344,7 +358,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>false</isOverride>
-			<useLookupValue>false</useLookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.EMSConnection.JNDIContextfactory#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///http/host</name>
@@ -353,8 +368,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>10.0.1.50</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.http.host#</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//TemplateProject///http/port</name>
@@ -363,8 +378,8 @@
 			<serviceSettable>false</serviceSettable>
 			<type>Integer</type>
 			<isOverride>true</isOverride>
-			<useLookupValue>false</useLookupValue>
-			<lookupValue>8095</lookupValue>
+			<useLookupValue>true</useLookupValue>
+			<lookupValue>#TemplateProject.http.port#</lookupValue>
 		</globalVariable>
 	</globalVariables>
 </repository>

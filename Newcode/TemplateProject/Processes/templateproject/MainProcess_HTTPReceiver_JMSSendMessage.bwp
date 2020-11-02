@@ -1785,10 +1785,6 @@
             tibex:propertySource="/framework/ERROR" type="xsd:string"/>
         <bpws:variable element="ns9:Payload"
             name="CallMainMediationProcess-input" sca-bpel:internal="true"/>
-        <bpws:variable name="hiftransformationxsltpath"
-            sca-bpel:hotUpdate="false" sca-bpel:privateProperty="true"
-            sca-bpel:property="yes"
-            tibex:propertySource="/framework/hiftransformationxsltpath" type="xsd:string"/>
         <bpws:variable name="hiftransformation"
             sca-bpel:hotUpdate="false" sca-bpel:privateProperty="true"
             sca-bpel:property="yes"
@@ -1797,10 +1793,6 @@
             sca-bpel:hotUpdate="false" sca-bpel:privateProperty="true"
             sca-bpel:property="yes"
             tibex:propertySource="/framework/customtransformation" type="xsd:boolean"/>
-        <bpws:variable name="hifroutingxsltpath"
-            sca-bpel:hotUpdate="false" sca-bpel:privateProperty="true"
-            sca-bpel:property="yes"
-            tibex:propertySource="/framework/hifroutingxsltpath" type="xsd:string"/>
         <bpws:variable name="hifrouting" sca-bpel:hotUpdate="false"
             sca-bpel:privateProperty="true" sca-bpel:property="yes"
             tibex:propertySource="/framework/hifroutingflag" type="xsd:boolean"/>
@@ -1986,7 +1978,7 @@
                     </bpws:sources>
                     <tibex:inputBindings>
                         <tibex:inputBinding
-                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns3=&quot;http://www.hif.framework/EnterpriseEnvolope&quot; xmlns:tns5=&quot;http://www.hif.framework/Payload&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;ParseXml&quot;/>&lt;xsl:param name=&quot;hiftransformationxsltpath&quot;/>&lt;xsl:param name=&quot;hiftransformation&quot;/>&lt;xsl:param name=&quot;customtransformation&quot;/>&lt;xsl:param name=&quot;hifroutingxsltpath&quot;/>&lt;xsl:param name=&quot;hifrouting&quot;/>&lt;xsl:param name=&quot;customrouting&quot;/>&lt;xsl:template name=&quot;CallMainMediationProcess-input&quot; match=&quot;/&quot;>&lt;tns5:Payload>&lt;tns5:payload>&lt;xsl:copy-of select=&quot;$ParseXml/tns3:body/tns3:Payload/ancestor-or-self::*/namespace::node()&quot;/>&lt;xsl:copy-of select=&quot;$ParseXml/tns3:body/tns3:Payload/@*&quot;/>&lt;xsl:copy-of select=&quot;$ParseXml/tns3:body/tns3:Payload/node()&quot;/>&lt;/tns5:payload>&lt;tns5:hiftransformationxslt>&lt;xsl:value-of select=&quot;$hiftransformationxsltpath&quot;/>&lt;/tns5:hiftransformationxslt>&lt;tns5:hiftransform>&lt;xsl:value-of select=&quot;$hiftransformation&quot;/>&lt;/tns5:hiftransform>&lt;tns5:customtransform>&lt;xsl:value-of select=&quot;$customtransformation&quot;/>&lt;/tns5:customtransform>&lt;tns5:hifroutingxslt>&lt;xsl:value-of select=&quot;$hifroutingxsltpath&quot;/>&lt;/tns5:hifroutingxslt>&lt;tns5:hifrouting>&lt;xsl:value-of select=&quot;$hifrouting&quot;/>&lt;/tns5:hifrouting>&lt;tns5:customrouting>&lt;xsl:value-of select=&quot;$customrouting&quot;/>&lt;/tns5:customrouting>&lt;/tns5:Payload>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
+                            expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns3=&quot;http://www.hif.framework/EnterpriseEnvolope&quot; xmlns:tns5=&quot;http://www.hif.framework/Payload&quot; version=&quot;2.0&quot;>&lt;xsl:param name=&quot;ParseXml&quot;/>&lt;xsl:param name=&quot;hiftransformation&quot;/>&lt;xsl:param name=&quot;customtransformation&quot;/>&lt;xsl:param name=&quot;hifrouting&quot;/>&lt;xsl:param name=&quot;customrouting&quot;/>&lt;xsl:template name=&quot;CallMainMediationProcess-input&quot; match=&quot;/&quot;>&lt;tns5:Payload>&lt;tns5:payload>&lt;xsl:copy-of select=&quot;$ParseXml/tns3:body/tns3:Payload/ancestor-or-self::*/namespace::node()&quot;/>&lt;xsl:copy-of select=&quot;$ParseXml/tns3:body/tns3:Payload/@*&quot;/>&lt;xsl:copy-of select=&quot;$ParseXml/tns3:body/tns3:Payload/node()&quot;/>&lt;/tns5:payload>&lt;tns5:hiftransform>&lt;xsl:value-of select=&quot;$hiftransformation&quot;/>&lt;/tns5:hiftransform>&lt;tns5:customtransform>&lt;xsl:value-of select=&quot;$customtransformation&quot;/>&lt;/tns5:customtransform>&lt;tns5:hifrouting>&lt;xsl:value-of select=&quot;$hifrouting&quot;/>&lt;/tns5:hifrouting>&lt;tns5:customrouting>&lt;xsl:value-of select=&quot;$customrouting&quot;/>&lt;/tns5:customrouting>&lt;/tns5:Payload>&lt;/xsl:template>&lt;/xsl:stylesheet>" expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"/>
                     </tibex:inputBindings>
                     <tibex:CallProcess
                         subProcessName="Common.SubValidationTransformationRouting" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions"/>

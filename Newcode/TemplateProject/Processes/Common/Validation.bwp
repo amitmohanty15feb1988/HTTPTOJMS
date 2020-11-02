@@ -617,9 +617,6 @@
             name="Validateinput" sca-bpel:internal="true"/>
         <bpws:variable element="ns5:Payload" name="Start"
             sca-bpel:internal="true" tibex:parameter="in"/>
-        <bpws:variable name="xsdfilelocation" sca-bpel:hotUpdate="false"
-            sca-bpel:privateProperty="true" sca-bpel:property="yes"
-            tibex:propertySource="/framework/validatexsdpath" type="xsd:string"/>
         <bpws:variable name="FaultName" sca-bpel:internal="true" type="xsd:string"/>
         <bpws:variable element="ns:FaultDetail" name="FaultDetails" sca-bpel:internal="true"/>
     </bpws:variables>

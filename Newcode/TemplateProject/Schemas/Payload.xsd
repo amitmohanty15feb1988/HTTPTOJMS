@@ -8,15 +8,9 @@
     		<element name="payload" minOccurs="0"
     			maxOccurs="1" type="anySimpleType">
             </element>
-    		<element name="hiftransformationxslt" type="string"
-    			minOccurs="0" maxOccurs="1">
-    		</element>
             <element name="hiftransform" type="boolean" minOccurs="0" maxOccurs="1">
     		</element>
             <element name="customtransform" type="boolean" minOccurs="0" maxOccurs="1">
-    		</element>
-            <element name="hifroutingxslt" type="string" minOccurs="0"
-    			maxOccurs="1">
     		</element>
     		<element name="hifrouting" type="boolean" minOccurs="0"
     			maxOccurs="1">
